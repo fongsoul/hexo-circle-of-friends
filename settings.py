@@ -78,12 +78,10 @@ BLOCK_SITE = [
 
 # 友链列表配置文件
 CONFIG_FRIENDS_LINKS = {
-    "enable": False, # 是否启用配置项友链 True/False（此项用于针对还未适配的主题用户）
+    "enable": True, # 是否启用配置项友链 True/False（此项用于针对还未适配的主题用户）
     "list":[
-        # 格式：["name", "link", "avatar"]，除最后一行外每行后面加","，"[]"不可省略
-        # link的结尾最好加上'/'
-        # 例如：
-        ["贰猹の小窝", "https://noionion.top/", "https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg"],
-        ["小冰博客", "https://zfe.space/", "https://zfe.space/images/headimage.png"]
+        ["Kam", "https://kam.zone/", "https://kam.zone/avatar.jpg"],
+        ["孤斗 - 伍子蛇", "http://d-d.design", "http://d-d.design/tx/gdLogo.png"],
+        ["猫鱼的小窝", "https://2cat.net", "https://www.libravatar.org/gravatarproxy/ef1147bd0a0f7d814783e9fea34908cb?s=240"]
     ]
 }
